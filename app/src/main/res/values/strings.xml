@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Exercise: CE-1257218</string>
+
+    <string name="text1">Communal household</string>
+
+    <string name="text2">At work</string>
+
+    <string name="text3">Created</string>
+
+    <string name="text4">27th of January 2016</string>
+
+    <string name="text5">Registered</string>
+
+    <string name="text6">Execute before</string>
+
+    <string name="text7">Responsible</string>
+
+    <string name="text8">Dnipropetrovsk MVK</string>
+
+    <string name="text9">For a long time, not from my memory, perhaps, even our parents and grandfathers were not in the world, lived a poor man with a woman, and they had one single son, and that one is not like this: such a lazy the one who is the Lord!</string>
 </resources>
