@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one_tv_size">16sp</dimen>
+    <dimen name="margin_V">8dp</dimen>
+    <dimen name="margin_V_Top">22dp</dimen>
+    <dimen name="rl_All">16dp</dimen>
+    <dimen name="height_V">1dp</dimen>
+
+</resources>
