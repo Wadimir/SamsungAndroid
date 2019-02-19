@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Tsegolnyk Gmail)</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_recycle">recycle</string>
+    <string name="email_title_placeholder">One</string>
+    <string name="title_activity_detale_email">DetaleEmailActivity</string>
+    <string name="user_name">user</string>
+    <string name="email_subject">subject</string>
+    <string name="email_compose">compose</string>
+    <string name="email_date">time</string>
+    <string name="who">To</string>
+    <string name="subject">Subject</string>
+    <string name="compose">Compose email</string>
 </resources>
