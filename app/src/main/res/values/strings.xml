@@ -11,4 +11,8 @@
     <string name="who">To</string>
     <string name="subject">Subject</string>
     <string name="compose">Compose email</string>
+    <string name="send">SEND</string>
+    <string name="reply">REPLY</string>
+    <string name="forward">FORWARD</string>
+    <string name="chekbox">Add business signature</string>
 </resources>

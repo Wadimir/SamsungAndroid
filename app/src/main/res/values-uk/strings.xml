@@ -11,4 +11,8 @@
     <string name="who">Кому</string>
     <string name="subject">Тема</string>
     <string name="compose">Текст письма</string>
+    <string name="send">НАДІСЛАТИ</string>
+    <string name="reply">ВІДПОВІСТИ</string>
+    <string name="forward">ПЕРЕСЛАТИ</string>
+    <string name="chekbox">Додати діловий підпис</string>
 </resources>

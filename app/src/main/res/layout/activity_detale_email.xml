@@ -69,14 +69,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_first"
-        android:text="REPLY"/>
+        android:text="@string/reply"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv_first"
         android:layout_toEndOf="@id/reply"
-        android:text="FORWARD"/>
+        android:text="@string/forward"/>
 
 
 </RelativeLayout>
