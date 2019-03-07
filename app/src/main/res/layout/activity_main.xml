@@ -2,51 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Material_Ui"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="12dp"
-        android:background="#ffffff"
-        app:title=" ">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textColor="#000000"
-            android:textSize="28sp"
-            android:textStyle="bold" />
+  <FrameLayout
+      android:id="@+id/fragment_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_above="@+id/navigation"/>
 
 
-    </android.support.v7.widget.Toolbar>
 
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycle_view_email"
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        tools:listitem="@layout/activity_recycle" />
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:background="?android:attr/windowBackground"
         android:layout_alignParentBottom="true"
-        android:layout_margin="@dimen/fab_margin"
-        android:backgroundTint="@color/Material_Ui"
-        app:backgroundTint="@color/Material_Ui"
-        app:fabCustomSize="64dp"
-        app:srcCompat="@drawable/ic_markunread_black_24dp" />
-
+        app:menu="@menu/navigation" />
 
 </RelativeLayout>
