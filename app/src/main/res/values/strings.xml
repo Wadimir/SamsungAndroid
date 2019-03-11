@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="title_home">Welcome Home (Sanitarium)</string>
-    <string name="title_dashboard">Sonic dash, not dashboard</string>
-    <string name="title_notifications">Notification from your girlfriend about the 8th of March</string>
+    <string name="app_name">Dialog and Notification</string>
+    <string name="send">Отправить уведомление</string>
+    <string name="title">Заголовок</string>
+    <string name="settings">Настройки уведомления</string>
+    <string name="text">Текст</string>
 </resources>
