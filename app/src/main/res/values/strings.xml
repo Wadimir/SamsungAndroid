@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">Dialog and Notification</string>
-    <string name="send">Отправить уведомление</string>
-    <string name="title">Заголовок</string>
-    <string name="settings">Настройки уведомления</string>
-    <string name="text">Текст</string>
+    <string name="app_name">shared_preferences</string>
+    <string name="preferences_fiel_key">key</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.user.notification;
+package com.example.user.login_2;
 
 import org.junit.Test;
 
