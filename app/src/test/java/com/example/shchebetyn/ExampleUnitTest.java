@@ -1,4 +1,4 @@
-package com.example.user.login_2;
+package com.example.shchebetyn;
 
 import org.junit.Test;
 
