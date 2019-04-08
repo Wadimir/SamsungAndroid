@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
@@ -52,17 +55,24 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-        switch (item.getItemId()) {
-            case R.id.itemSettings:
-                Intent intent = new Intent(this, Activity_Settings.class);
-                return true;
-            case R.id.itemInfo:
-                Intent intent2 = new Intent(this, Activity_Info.class);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
+        int id = item.getItemId();
+        // Handle item selection
+        if (id == R.id.itemSettings) {
+
+            Intent intent = new Intent(MainActivity.this, MainSettingsActivity.class);
+            startActivity(intent);
+            return false;
+        }
+
+        if (id == R.id.itemInfo) {
+
+            Intent intent = new Intent(MainActivity.this, MainInfoActivity.class);
+            startActivity(intent);
+            return false;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 }
+
